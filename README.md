@@ -1,13 +1,16 @@
 ## 网络编程案例
 ### 介绍
-在Linux下的网络编程demo，采用tcp协议，用c语言实现了多进程和多线程的并发服务器案例。
-文件说明
-- `socket_tcp_client_server`文件夹：简单的client和server通信
-- `multi_processed_tcp_client_server`文件夹：多进程的并发服务器案例
-- `multi_thread_tcp_client_server`文件夹：多线程的并发服务器案例
+在Linux下的网络编程demo，采用tcp协议，用c语言实现了**多进程**和**多线程**的并发服务器案例。
+
+文件说明:
+- `socket_tcp_client_server`文件夹：**简单的client和server通信**
+- `multi_processed_tcp_client_server`文件夹：**多进程的并发服务器案例**
+- `multi_thread_tcp_client_server`文件夹：**多线程的并发服务器案例**
 ### 依赖
 编程环境：在VMware虚拟机中的`Ubuntu 16.04`
+
 编程语言：c
+
 编译器：gcc
 
 ### 用法
