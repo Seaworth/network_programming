@@ -29,6 +29,9 @@ int main(int argc, char* argv[])
 	server_addr.sin_addr.s_addr = htonl(INADDR_ANY); // ip addr
 	server_addr.sin_port = htons(port_nu);	         // port num
 
+	int opt = 1;
+	setsockopt(socket_fd, SOL_SOCKET, SO_REUSEADDR, &opt, sizeof(opt));
+
 	int bind_ret = bind(socket_fd, (struct sockaddr*)&server_addr, sizeof(server_addr));
 	if(bind_ret < 0){
 		printf("err: bind fail! caused by %s\n", strerror(errno));
