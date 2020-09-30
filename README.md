@@ -31,14 +31,14 @@
 
 **server端**
 
-![server](https://github.com/Seaworth/network_programming/blob/master/result_picture/server.png)
+![server](https://gitee.com/seaworth/document/raw/markdown-picture/2020/20200930091652.png)
 
 **client端**
 
-![client](https://github.com/Seaworth/network_programming/blob/master/result_picture/client.png)
+![client](https://gitee.com/seaworth/document/raw/markdown-picture/2020/20200930091757.png)
 
 2. 多进程的并发服务器案例
 
-![multi_process_client_server](https://github.com/Seaworth/network_programming/blob/master/result_picture/mutil_processed_tcp_client_server.gif)
+![mutil_processed_tcp_client_server](https://gitee.com/seaworth/document/raw/markdown-picture/2020/20200930091820.gif)
 
 欢迎star，fork！:blush:
